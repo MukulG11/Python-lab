@@ -19,15 +19,15 @@ print(values)
 print(len(values))
 
 print("using tuples")
-tuple1 = (1,3,"pavan")
-tuple2 = (2,4,"kalyan")
+tuple1 = (1,3,"mukul")
+tuple2 = (2,4,"gaur")
 print(f'tuple1 = {tuple1}')
 print(f'tuple2 = {tuple2}')
 print("add tuple1 tuple2")
 tuple3 = tuple1 + tuple2
 print(tuple3)
 print(tuple1.count(3))
-print(tuple1.index("pavan"))
+print(tuple1.index("mukul"))
 
 print("using dictionaries")
 dict = {'fruit': 'apple','color': 'red','cost': 50}
@@ -42,16 +42,16 @@ dict.clear()
 print(dict)
 
 print("using sets")
-set1={"pavan","kalyan","harsha"}
+set1={"mukul","gaur","harsha"}
 print("set1=",set1)
 print("add a name to set1")
 set1.add("abid")
 print(set1)
 print("update set1 with different names")
-set1.update(["pk","hy","ah"])
+set1.update(["mk","gg","aa"])
 print(set1)
 print("length of set1")
 print(len(set1))
 print("remove a name in set1")
-set1.remove("pavan")
+set1.remove("mukul")
 print(set1)
